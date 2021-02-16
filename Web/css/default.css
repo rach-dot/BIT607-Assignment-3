@@ -1,0 +1,109 @@
+h1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 2vw;
+  color: white;
+}
+
+p {
+  color: black;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 12;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7b173;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 3px;
+  background-color: #f7b173;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px; 
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 150px;
+  text-decoration: none;
+  font-size: 1vw;
+  width: auto;
+  max-height: 100%;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+#googleForm {
+  text-align: center;
+}
